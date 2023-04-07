@@ -1,0 +1,21 @@
+.lintar-active-class{
+    border: 1px solid orange !important;
+    padding:5px
+}
+
+.alerts-border {
+    border: 4px solid #ff0000 !important;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }

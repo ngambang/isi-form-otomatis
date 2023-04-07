@@ -1,0 +1,20 @@
+{
+  "name": "Lintar - PIlih Element",
+  "description": "Pilih Element",
+  "version": "1.0",
+  "manifest_version": 3,
+  "devtools_page": "devtools.html",
+  "permissions": [
+      "tabs", 
+      "storage",
+      "scripting",
+      "declarativeContent", 
+      "activeTab"
+  ],
+  "host_permissions": [ "<all_urls>" ],
+  "content_scripts": [ {
+    "matches": ["<all_urls>"],
+    "js": ["lin.js"],
+    "css":["tar.css"]
+  }]
+}

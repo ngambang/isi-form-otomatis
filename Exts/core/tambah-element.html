@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">AutoPilot</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link " href="index.html">Beranda </span></a>
+          </li>
+          <li class="nav-item active" >
+            <a class="nav-link" href="script.html">Buat Script</a>
+          </li>
+          <li class="nav-item active" >
+            <a class="nav-link" href="alur.html">Flow Script</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="col-md-12 mt-4 mb-4">
+      <div class="form-group">
+        <label for="pilih-element">Pilih Element</label>
+        <div class="input-group">
+          <select class="form-control" id="pilih-element"></select>
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" id="btn-pilih-element" type="button"><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Element</button>
+            <button class="btn btn-outline-secondary" type="button"><i class="fa fa-play" aria-hidden="true"></i> Tes</button>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Aksi</label>
+        <select id="aksi-element" class="form-control">
+          <option>Input</option>
+          <option>Input & Enter</option>
+          <option>Pilihan Dropdown</option>
+          <option>Pilihan Tunggal</option>
+          <option>Upload File</option>
+          <option>Klik</option>
+        </select>
+      </div>
+      <input type="hidden" id="script">
+      <div class="form-group">
+        <label for="label-db">Label Database</label>
+        <input type="text" class="form-control" id="label-db" placeholder="Label Db">
+      </div>
+      <button type="submit" class="btn btn-primary" id="simpan-element">Simpan</button>
+      <button type="button" class="btn btn-warning" id="batal-element">Batal</button>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/axios.min.js"></script>
+    <script src="js/tambah-element.js"></script>
+
+  </body>
+</html>
