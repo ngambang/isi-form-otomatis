@@ -1,7 +1,7 @@
 # isi-form-otomatis
 
 ## 🔗 Links Demo
-![YouTube Video Views](https://img.shields.io/youtube/views/Eu4gDer-61c)
+[Link Youtube](https://www.youtube.com/watch?v=Eu4gDer-61c)
 
 masih banyak error karna tidak dilanjutkan 
 
