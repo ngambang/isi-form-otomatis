@@ -19,3 +19,6 @@ node index
 ```
 
 3. install extension ke chrome > folder Exts
+
+
+[saweria ngambangdotcom](https://saweria.co/ngambangdotcom)
